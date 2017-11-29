@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">About PornAOSP</string>
+    <string name="action_wishbucket">WishBucket</string>
+
+    <string name="about_paosp">Sssij pento</string>
+    <string name="about_paosp2">Sssij jeszcze bardziej</string>
+    <string name="about_paosp3">wyssij mi wszystko xd</string>
+    <string name="paosp_url">https://paosp.github.io</string>
+    <string name="paosp_github">https://github.com/PornAOSP</string>
+    <string name="paosp_channel">https://t.me/pornhubos</string>
+    <string name="fab_github">Github</string>
+    <string name="fab_homepage">Homepage</string>
+    <string name="fab_logcat">Logcat</string>
+    <string name="fab_telegram">Telegram</string>
+</resources>

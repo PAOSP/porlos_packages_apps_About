@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="paosp.about.MainActivity$AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:paddingBottom="15dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/aboutpaosp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/cards_padding"
+            card_view:cardBackgroundColor="@color/white"
+            card_view:cardElevation="@dimen/cards_elevation">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/cards_margin">
+
+                <TextView
+                    android:id="@+id/aboutpaosp_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="@dimen/cards_text_margin"
+                    android:gravity="fill_horizontal"
+                    android:text="@string/about_paosp"
+                    android:textSize="@dimen/text_small" />
+
+                <TextView
+                    android:id="@+id/aboutpaosp_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@id/aboutpaosp_text"
+                    android:layout_margin="@dimen/cards_text_margin"
+                    android:text="@string/about_paosp2"
+                    android:textSize="@dimen/text_small" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/aboutpaosp2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/cards_padding"
+            card_view:cardBackgroundColor="@color/white"
+            card_view:cardElevation="@dimen/cards_elevation">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/cards_margin">
+
+                <TextView
+                    android:id="@+id/aboutpaosp_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="@dimen/cards_text_margin"
+                    android:text="@string/about_paosp3"
+                    android:textSize="@dimen/text_small" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
