@@ -2,9 +2,9 @@
     <string name="app_name">About PornAOSP</string>
     <string name="action_wishbucket">WishBucket</string>
 
-    <string name="about_paosp">Sssij pento</string>
-    <string name="about_paosp2">Sssij jeszcze bardziej</string>
-    <string name="about_paosp3">wyssij mi wszystko xd</string>
+    <string name="about_paosp">PornAOSP (or PAOSP) is an Android distribution focused around privacy when doing... ermmmm... certain activities.</string>
+    <string name="about_paosp2">PornAOSP is designed with simplicity and ease of use in mind. Based on LineageOS, it brings the finest stability and greatest features to the user.</string>
+    <string name="about_paosp3">Focused on improving what we see as the greatest features of Android and not sophisticating things, PornAOSP provides a smooth user experience with many intuitive customization options to satisfy your tinkering needs.</string>
     <string name="paosp_url">https://paosp.github.io</string>
     <string name="paosp_github">https://github.com/PornAOSP</string>
     <string name="paosp_channel">https://t.me/pornhubos</string>
