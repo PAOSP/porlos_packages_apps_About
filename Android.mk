@@ -4,7 +4,7 @@ LOCAL_MODULE_TAGS := optional
 
 include $(CLEAR_VARS)
 
-LOCAL_PACKAGE_NAME := AboutCitrus
+LOCAL_PACKAGE_NAME := About
 LOCAL_CERTIFICATE := platform
 LOCAL_PROGUARD_ENABLED := disabled
 LOCAL_MANIFEST_FILE := app/src/main/AndroidManifest.xml
